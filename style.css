@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/620bd6d655f2044afa28bff4_glassmorphism.jpeg");
+}
+
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    background-size: cover;
+    background: linear-gradient(135deg , rgba(255. 255,255.0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:     20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(66, 66, 69, 0.678);
+    background-color: rgba(250, 245, 245, 0.026);
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: rgba(66, 66, 69, 0.678);
+}
+
+input::placeholder{
+    color: rgba(16, 16, 19, 0.942);
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 15px;
+    background: transparent;
+    color: rgba(16, 16, 18, 0.971);
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.equalBtn{
+    background-color: #c60ea7a0;
+}
+
+.operator{
+    color: #e1efeb;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    margin-right: 50px;
+}
+h3{
+    margin: 0 20px 20px;
+}
